@@ -6,6 +6,7 @@ Created on Wed Aug 15 09:57:20 2018
 """
 #This is  to show  that the file is created in Oct 3rd.
 #see the code here
+#this is to test the thing that
 import pandas as pd
 import numpy as np
 import sys
@@ -94,6 +95,8 @@ for i in range(len(df_ticker_all)):
 #bb = pdblp.BCon(debug=True)
 #bb.start()
 
+
+#This is to test.
 for i in range(len(df_ticker_all)):
     with pdblp.bopen(port=8194,timeout=50000) as bb:
         try:
